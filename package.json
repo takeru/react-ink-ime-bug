@@ -1,0 +1,20 @@
+{
+  "name": "react-ink-ime-bug",
+  "version": "1.0.0",
+  "description": "Reproduces the IME input bug in React Ink TextInput component",
+  "type": "module",
+  "main": "index.jsx",
+  "scripts": {
+    "start": "tsx index.jsx",
+    "dev": "tsx --watch index.jsx"
+  },
+  "dependencies": {
+    "ink": "^5.0.1",
+    "ink-text-input": "^6.0.0",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "tsx": "^4.19.2"
+  }
+}
